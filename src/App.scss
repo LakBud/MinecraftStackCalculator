@@ -30,3 +30,11 @@ body {
     background-position: 1000px 1000px;
   }
 }
+.slot:hover {
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.slot:hover {
+  scale: 1.1;
+  opacity: 0.8;
+}
