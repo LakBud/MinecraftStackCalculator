@@ -77,7 +77,7 @@ function StackCalculator() {
   return (
     <div className="minecraft-text flex flex-col items-center justify-center min-h-screen px-4">
       <div className="bg-white border-4 border-gray-300 rounded-xl p-6 sm:p-8 md:p-10 shadow-md w-full max-w-md">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl p-4 mb-4 text-center bg-green-600 rounded-xl text-amber-50">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl p-4 mb-4 text-center bg-green-600 rounded-xl text-amber-50">
           Stack Calculator
         </h1>
         <p className="mb-4 sm:mb-5 text-center text-base sm:text-lg md:text-xl">
