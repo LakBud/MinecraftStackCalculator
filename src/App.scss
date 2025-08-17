@@ -1,0 +1,32 @@
+@import url("https://fonts.cdnfonts.com/css/minecraftia");
+
+.minecraft-text {
+  font-family: "Minecraftia", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("./assets/grass.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  z-index: -1;
+  animation: scrollGrass 10s linear infinite;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+@keyframes scrollGrass {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1000px 1000px;
+  }
+}
